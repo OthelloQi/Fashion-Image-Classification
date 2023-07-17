@@ -13,4 +13,5 @@ headers = {
 }
  
 
-body = "{'Url':
+body = "{'Url': 'https://raw.githubusercontent.com/amynic/deep-learning-fashion/master/dataset/test/0label_image10007.png'}"
+# All images are listed here: https://
