@@ -24,4 +24,6 @@ custom_vision_url = "<projectid>/url?iterationId=<iterationid>"
 try:
     # Execute the REST API call and get the response.
     conn = httplib.HTTPSConnection(uri_base)
-    conn.request("
+    conn.request("POST", "/customvision/v2.0/Prediction/" + custom_vision_url, body, headers)
+    response = conn.getresponse()
+    data = respon
