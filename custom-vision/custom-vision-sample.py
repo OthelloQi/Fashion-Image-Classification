@@ -19,4 +19,9 @@ body = "{'Url': 'https://raw.githubusercontent.com/amynic/deep-learning-fashion/
  
 #enter everything after - https://southcentralus.api.cognitive.microsoft.com/customvision/v2.0/Prediction/ as custom_vision_url variable
  
-custom_vision_url = "<projectid>/url?
+custom_vision_url = "<projectid>/url?iterationId=<iterationid>" 
+ 
+try:
+    # Execute the REST API call and get the response.
+    conn = httplib.HTTPSConnection(uri_base)
+    conn.request("
