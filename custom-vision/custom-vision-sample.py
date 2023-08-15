@@ -17,4 +17,6 @@ body = "{'Url': 'https://raw.githubusercontent.com/amynic/deep-learning-fashion/
 # All images are listed here: https://github.com/amynic/deep-learning-fashion/tree/master/dataset/test 
 # change the filename to test different files
  
-#enter everything after -
+#enter everything after - https://southcentralus.api.cognitive.microsoft.com/customvision/v2.0/Prediction/ as custom_vision_url variable
+ 
+custom_vision_url = "<projectid>/url?
