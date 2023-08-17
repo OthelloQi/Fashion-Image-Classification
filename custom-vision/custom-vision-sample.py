@@ -34,4 +34,11 @@ try:
     print (json.dumps(parsed, sort_keys=True, indent=2))
     
     #print ("Most likely to be:")
-    #print (j
+    #print (json.dumps(parsed["predictions"][0]["tagName"], sort_keys=True, indent=2))
+    
+    conn.close()
+ 
+except Exception as e:
+    print('Error:')
+    print(e)
+
