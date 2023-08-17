@@ -29,4 +29,9 @@ try:
     data = response.read()
  
     # 'data' contains the JSON data. The following formats the JSON data for display.
-    parsed = json.loads(da
+    parsed = json.loads(data.decode())
+    print ("Response:")
+    print (json.dumps(parsed, sort_keys=True, indent=2))
+    
+    #print ("Most likely to be:")
+    #print (j
