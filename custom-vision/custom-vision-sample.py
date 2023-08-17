@@ -26,4 +26,7 @@ try:
     conn = httplib.HTTPSConnection(uri_base)
     conn.request("POST", "/customvision/v2.0/Prediction/" + custom_vision_url, body, headers)
     response = conn.getresponse()
-    data = respon
+    data = response.read()
+ 
+    # 'data' contains the JSON data. The following formats the JSON data for display.
+    parsed = json.loads(da
