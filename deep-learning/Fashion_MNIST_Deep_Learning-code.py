@@ -138,3 +138,25 @@ print('Time to run: ', (end-start))
 
 
 epoch_list = list(range(1, len(hist.history['acc']) + 1))
+plt.plot(epoch_list, hist.history['acc'], epoch_list, hist.history['val_acc'])
+plt.legend(('Training Accuracy', "Validation Accuracy"))
+plt.show()
+
+
+# In[9]:
+
+
+predictions = model.predict(x_test)
+
+# Plot a random sample of 10 test images, their predicted labels and ground truth
+figure = plt.figure(figsize=(20, 8))
+for i, index in enumerate(np.random.choice(x_test.shape[0], size=15, replace=False)):
+    ax = figure.add_subplot(3, 5, i + 1, xticks=[], yticks=[])
+    # Display each image
+    ax.imshow(np.squeeze(x_test[index]))
+    predict_index = np.argmax(predictions[index])
+    true_index = np.argmax(y_test[index])
+    # Set the title for each image
+    ax.set_title("{} ({})".format(fashion_mnist_labels[predict_index], 
+                                  fashion_mnist_labels[true_index]),
+                                  color=("green" if predict_index == true_index else "red"))
