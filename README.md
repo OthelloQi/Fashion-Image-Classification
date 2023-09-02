@@ -6,4 +6,7 @@ This project involves image classification of fashion items leveraging deep lear
 * [Pre-requisites](https://github.com/OthelloQi/Fashion-Image-Classification#pre-requisities)
 * [Microsoft Custom Vision for Image Classification](https://github.com/OthelloQi/Fashion-Image-Classification#microsoft-custom-vision-and-azure-notebooks-for-image-classification)
 * [Azure Notebooks for Image Classification](https://github.com/OthelloQi/Fashion-Image-Classification#azure-notebooks-for-image-classification)
-* [Microsoft Data Science Virtual Machine for Deep Learning](https://github.com/OthelloQi/Fash
+* [Microsoft Data Science Virtual Machine for Deep Learning](https://github.com/OthelloQi/Fashion-Image-Classification#microsoft-data-science-virtual-machine-for-deep-learning)
+
+
+In this workshop, we focus on image classification using deep l
