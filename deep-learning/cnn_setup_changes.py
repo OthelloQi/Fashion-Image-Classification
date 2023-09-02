@@ -11,3 +11,6 @@ model.add(Flatten())
 model.add(Dense(128, activation='relu'))
 
 model.add(Dropout(0.5))
+model.add(Dense(num_classes, activation='softmax'))
+
+model.summary()
