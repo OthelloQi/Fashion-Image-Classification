@@ -9,4 +9,6 @@ This project involves image classification of fashion items leveraging deep lear
 * [Microsoft Data Science Virtual Machine for Deep Learning](https://github.com/OthelloQi/Fashion-Image-Classification#microsoft-data-science-virtual-machine-for-deep-learning)
 
 
-In this workshop, we focus on image classification using deep learning. We use the Microsoft Custom Vision service and transfer learning as well as Microsoft Azure Notebooks with the Keras deep learning A
+In this workshop, we focus on image classification using deep learning. We use the Microsoft Custom Vision service and transfer learning as well as Microsoft Azure Notebooks with the Keras deep learning API.
+
+We present two forms of image classification endeavors that will walk you through classifying clothing into categories such as dresses, t
