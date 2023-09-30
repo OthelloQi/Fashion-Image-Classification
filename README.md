@@ -13,4 +13,4 @@ In this workshop, we focus on image classification using deep learning. We use t
 
 We present two forms of image classification endeavors that will walk you through classifying clothing into categories such as dresses, t-shirts, sandals, trainers, etc. We'll be working with the Fashion MNIST dataset from Zalando, an online fashion brand. The dataset can be found here: https://github.com/zalandoresearch/fashion-mnist
 
-The pre-requisites, detailed tutorial on using Microsoft Custom Vision for imag
+The pre-requisites, detailed tutorial on using Microsoft Custom Vision for image classification, Azure Notebooks for image classification, and the optional Microsoft Data Science Virtual Machine for deep 
