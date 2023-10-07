@@ -15,4 +15,4 @@ We present two forms of image classification endeavors that will walk you throug
 
 The pre-requisites, detailed tutorial on using Microsoft Custom Vision for image classification, Azure Notebooks for image classification, and the optional Microsoft Data Science Virtual Machine for deep learning are all clearly described with step-by-step guides, screenshots, links, hints, and tips.
 
-Lastly, remember to manage your resources
+Lastly, remember to manage your resources wisely. While some services like the custom vision service and Azure notebooks are free to use, for the Data Science VM, ensure you either 
