@@ -17,4 +17,4 @@ The pre-requisites, detailed tutorial on using Microsoft Custom Vision for image
 
 Lastly, remember to manage your resources wisely. While some services like the custom vision service and Azure notebooks are free to use, for the Data Science VM, ensure you either delete the VM or shut it down properly to avoid unnecessary costs.
 
-For any queries, please raise an issue [here](https://githu
+For any queries, please raise an issue [here](https://github.com/OthelloQi/Fashion-Image-Classification/issues). If you are contributing, remember to pull the latest changes before you start. Happy learning!
